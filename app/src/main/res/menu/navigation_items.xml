@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/optHome"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_speaker_notes_24"/>
+    <item
+        android:id="@+id/optmenu"
+        android:title="Daily Meal (Menu)"
+        android:icon="@drawable/ic_baseline_no_meals_24"/>
+
+    <item
+        android:id="@+id/optfavorite"
+        android:title="Favorite"
+        android:icon="@drawable/ic_baseline_favorite_24"/>
+    <item
+        android:id="@+id/optbookingtable"
+        android:title="Booking Tables"
+        android:icon="@drawable/ic_baseline_table_restaurant_24"/>
+    <item
+        android:id="@+id/optbookingrooms"
+        android:title="Booking Rooms"
+        android:icon="@drawable/ic_baseline_bedroom_parent_24"/>
+
+    <item
+        android:id="@+id/optmycart"
+        android:title="My cart"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"/>
+
+
+
+
+
+
+</menu>
+

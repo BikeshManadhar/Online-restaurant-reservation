@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@drawable/homepage">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DIYA DAHARA RESTAURANT"
+            android:textSize="40dp"
+            android:fontFamily="@font/fontone"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BOOK"
+            android:textSize="30dp"
+            android:fontFamily="@font/fontsix"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EAT"
+            android:textSize="30dp"
+            android:fontFamily="@font/fontsix"
+            android:textColor="#FF5722"
+            android:textStyle="bold"
+            android:layout_marginTop="-40dp"
+            android:layout_marginLeft="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Make your table reservation easily in few clicks"
+            android:textSize="20dp"
+            android:fontFamily="@font/fontsix"
+            android:gravity="center"
+            android:textColor="#C9F8F0F4"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:id="@+id/textView_admin_login"
+            android:text="@string/admin"
+            android:textSize="18dp"
+            android:fontFamily="@font/fontsix"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:textColor="#2196F3"
+            android:textStyle="bold"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnlogin"
+            android:text="Login"
+            android:fontFamily="@font/font"
+            android:textColor="#fff"
+            android:background="@drawable/yellow_color_backgroung1"
+            android:layout_marginTop="270dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do not have an account?"
+            android:textSize="15dp"
+            android:fontFamily="@font/fontsix"
+            android:gravity="center"
+            android:id="@+id/textView_register"
+            android:textColor="#673AB7"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_register_link"
+            android:text="@string/register"
+            android:textSize="15dp"
+            android:gravity="center"
+            android:textColor="#C9DA1376"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

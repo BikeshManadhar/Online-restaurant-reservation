@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AppCompat.NoActionBar" parent="Theme.AppCompat">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    Note that Theme.AppCompat is the parent theme for Theme.AppCompat.NoActionBar, so make sure that you have that theme defined as well.
+
+
+
+
+
+
+</resources>

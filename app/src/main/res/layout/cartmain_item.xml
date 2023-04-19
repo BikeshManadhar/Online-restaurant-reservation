@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/imgCart"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/CustomrDetails"
+            android:text="Customer Details"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#D50606"
+            android:layout_toEndOf="@+id/imgCart"
+            android:layout_marginStart="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/CustomerName"
+            android:text="Name"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_below="@+id/CustomrDetails"
+            android:textColor="#F3F6F6EC"
+            android:layout_toEndOf="@+id/imgCart"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Email"
+            android:text="Email"
+            android:layout_below="@+id/CustomerName"
+            android:textStyle="bold"
+            android:textSize="10sp"
+            android:textColor="#0522C3"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/imgCart"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/PhoneNo"
+            android:text="Phone No"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#EDECE0"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/imgCart"
+            android:layout_below="@+id/Email"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Quantity"
+            android:text="Quantity"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#0D97A8"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/imgCart"
+            android:layout_below="@+id/PhoneNo"/>
+
+        <LinearLayout
+            android:layout_below="@+id/imgCart"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="173dp"
+                android:layout_height="43dp"
+                android:text="Cancel order"
+                android:padding="-10dp"
+                android:textAllCaps="false"
+                android:background="#C30A0A"
+                android:id="@+id/cancelOrder"/>
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
